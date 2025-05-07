@@ -1,4 +1,4 @@
-2025/05/01
+2025/05/07 更新
 1. 需要移出 KillingFloor/System 的檔案
 ScrnBalanceSrv.u
 NMAmmoTurret.u
@@ -70,6 +70,9 @@ l. Heavy MachineGunner
 m. Demolitions
 - 爆破抗性 70%，7等開始+1%，最多加20%
 - 非火箭武器以及非單發式裝填的榴彈裝填速度 +25%，7等開始每等+1%，最多加+15%
+
+※ 其他項目
+a. Pipebomb SE：售價單顆從750提升到1000，但是不會再被 Husk 火球、Patriarch 的 one in the pipe 以及 Siren 尖叫破壞掉
 
 (2) 武器
 a. Triple Threat：主開火射出三顆手榴彈，次要開火射出三顆冰凍彈。其中主開火預設是 KF1 手榴彈，如果是 Commando, Medic(Field and Combat), Firebug 則各別射出自己職業的專屬手榴彈
