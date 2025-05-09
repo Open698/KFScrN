@@ -92,4 +92,4 @@ k. HL2 weawpons：作者沒有設定好，大多吃不到職業加成！這裡�
 a. 新增重型戰鬥護甲，提供 150 護甲（介於一般戰鬥護甲 100 以及 Horzine 護甲 200 之間），負重 2 售價 600
 
 (4) 熱鍵提醒
-盾牌熱鍵：set input X switchweapon Shield.Shield （以後按 X 就能拿出盾牌，不用再按三次 5）
+盾牌熱鍵：set input X getweapon shield （以後按 X 就能拿出盾牌，不用再按三次 5）
