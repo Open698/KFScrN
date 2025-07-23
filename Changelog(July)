@@ -1,49 +1,55 @@
-註：射速是數字越小射越快
+2025/07/23
+新增模組 Slot Machine
+此為非常舊且年久失修的模組，目前有些效果可能太搞會暫時關閉，先試營運
+使用方式：
+1. 擊殺 3 名敵人會自動轉一次圖示，成功轉三次且圖示都相同時會抽出獎勵或是懲罰。
+2. 擊殺敵人沒有間隔限制，所以同時擊殺 9 個以上就會直接三連轉，但是抽完獎勵或懲罰之後有 3 秒的冷卻時間
+3. 目前開啟的獎勵和懲罰如以下：
+(1) 獎賞
+- 金錢
+- 彈藥
+- 護甲
+- 無敵
+- 無敵星星
+- ZED 暴斃術
+- 腎上腺素（血量大幅提升但會隨時間減少）
+- 聖誕帽（？？？）
+(2) 懲罰
+- 酒醉（畫面搖晃 20 秒）
+- 叫出 3 隻 Clot 在附近
+- 滿臉膽汁
+- 失血
 
-2025/05/11
-武器平衡
-1. M134DT
-↓備彈上限從1200降至800
-↓傷害從85降至80
-↓武器價格從4800增加至5000
-↑射速從0.070提升至0.068
+以下有部分原始檔案，供參考，但只有以上提及的有開啟
+CardClasses=MutSlotMachine.CashCard
+CardClasses=MutSlotMachine.ToxicCard
+CardClasses=MutSlotMachine.HeartBreakCard
+CardClasses=MutSlotMachine.AmmoCard
+CardClasses=MutSlotMachine.ArmorCard
+;CardClasses=MutSlotMachine.GrenadeCard
+CardClasses=MutSlotMachine.GodModeCard
+CardClasses=MutSlotMachine.StarmanCard
+CardClasses=MutSlotMachine.InstaDeathCard
+CardClasses=MutSlotMachine.ZedDeathCard
+CardClasses=MutSlotMachine.PipeSelfDestCard
+CardClasses=MutSlotMachine.PipeSelfDestBCard
 
-2025/05/23
-職業平衡
-1. Berserker「16等開始每等+0.5%減傷，最多再加10%」移除，以免穿上 Horzine Armor 再加上誇張的減傷會幾乎無敵
-武器平衡
-1. 移除 Sentry Bots，因為 Bots 會被視作玩家導致 Patriarch 經常觸發 360 度 killing blow 反而變成智障的問題
-2. 暫時移除 Triple Threat，因為冰凍效果封路過強。但目前也許會加回來，畢竟冰凍也是只有特定窄圖封路才強
+CardClasses=MutSlotMachine.FleshPoundCard
+CardClasses=MutSlotMachine.ClotCard
+CardClasses=MutSlotMachine.SirenCard
+CardClasses=MutSlotMachine.BloatCard
+CardClasses=MutSlotMachine.CashShareCard
+CardClasses=MutSlotMachine.AdrenalineCard
+CardClasses=MutSlotMachine.DrunkCard
+;CardClasses=MutSlotMachine.TeamFatalityCard
+CardClasses=MutSlotMachine.CashJackpotCard
+;CardClasses=MutSlotMachine.PatriarchCard
+CardClasses=MutSlotMachine.HolyGrenadeCard
+CardClasses=MutSlotMachine.MaskCard
+CardClasses=MutSlotMachine.NoDoshCard
+CardClasses=MutSlotMachine.SantaHatCard
+CardClasses=MutSlotMachine.HeadSizeCard
+;CardClasses=MutSlotMachine.TeamNoAmmoCard
+CardClasses=MutSlotMachine.GeoViewCard
+;CardClasses=MutSlotMachine.AssistCard
 
-2025/06/01
-職業平衡
-1. Commando 後座力減免從11級降至7即開始獲得額外減免
-武器調整
-1. Heavy MachineGunner 武器槍焰根本閃瞎眼，目前會有幾把武器改為無槍焰
-
-2025/06/04
-武器平衡以及修正
-1. M134DT
-↓備彈上限從800降至600
-↓傷害從80降至63
-↓後座力上升
-↓武器價格從5000增加至7770（對，1折購買剛好是777）
-↓負重從13kg增加至14kg
-↑武器更不易過熱（原本按住不放可以射163發才過熱，目前是178~183，待觀察）
-↑射速從0.068調整至0.065
-0.6 106
-0.66 115
-0.71 124
-0.8 163
-0.975 217
-※ 修正彈藥購買一匣子彈卻給兩匣彈藥的問題
-※ 新增武器缺少會過熱的資訊
-2. M249 SAW (Commando版本)
-↓調整穿透係數和敵人數量，原本只衰退15%，現在是50%，並從無限穿透降為只穿透兩名
-↓射速從0.10調高至0.12
-3. M249 SAW (Heavy Machine Gunner版本)
-↑重量從12kg降為11kg
-↑彈匣從50發上升為75發（說實在我不知道為啥原廠設定M249只有50發）
-
-已知問題
-1. Pipebomb 原先在 ScrN 模組裡能放置的上限時（職業等級 +2）顆，但因為我修改成不會被敵人攻擊爆炸之後，變成和原版一樣可以想放幾顆就放幾顆，沒有上限（或者這不算問題？）
