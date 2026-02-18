@@ -1,9 +1,10 @@
 進入伺服器時如果出現：
-Failed launching URL Pacage 'xyz123456' version mismatch （如下方連結所示）
+Failed launching URL Package 'xyz123456' version mismatch （如下方連結所示）
 https://imgur.com/a/rpCE9qB
 請到 Killing Floor 的安裝位置，通常是 X:\Program Files (x86)\Steam\steamapps\common\KillingFloor
-之後進入 System 資料夾裡面找到 xyz123456.u 並移出 System 的資料夾就好，不必刪除
-如果真有必要，可以將 System 資料夾內的 .u 檔案全數移出，並檢查檔案完整性重新下載，確保只有最原本 KF1 的檔案後再進入伺服器
+之後進入 System 資料夾裡面找到 xyz123456.u 並移出 System 的資料夾就好（可以不刪除，備份留著）
+如果仍無法解決，可能會有必要將 System 資料夾內的 .u 檔案全數移出
+之後在 Steam 找到 KF1 執行檢查檔案完整性重新下載，確保只有最原本 KF1 的檔案後再進入伺服器試試看
 
 發生此問題是因為你的資料夾裡有相同名稱的檔案，原因可能為：
 1. 先前有在 Steam 工作坊有訂閱過相關的檔案。
@@ -12,6 +13,6 @@ https://imgur.com/a/rpCE9qB
 > 可能伺服器方使用的檔案有做過修改，例如目前 Killing Floor 有不少伺服器的自訂等級插件皆使用 ScrN 的模組，
 但每個伺服器主幾乎都會改過裡面的代碼，或是新增更多的東西進去，導致客戶端玩家發生版本不匹配的問題。
 
-註：如果資料夾裡已經沒有該檔案，即使伺服器主頻繁更新檔案，也不會造成你重新進入伺服器還要重新下載過。
+註：如果資料夾裡已經沒有該 .u 檔案，即使伺服器主頻繁更新檔案，也不會造成你重新進入伺服器還要重新下載過。
 因為設定上是下載快取檔案，不會讓客戶端玩家方直接擁有該檔案，與 Left 4 Deaad 2 等 Source 引擎遊戲並不相同。
 
