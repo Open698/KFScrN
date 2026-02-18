@@ -3,6 +3,7 @@ Failed launching URL Pacage 'xyz123456' version mismatch （如下方連結所�
 https://imgur.com/a/rpCE9qB
 請到 Killing Floor 的安裝位置，通常是 X:\Program Files (x86)\Steam\steamapps\common\KillingFloor
 之後進入 System 資料夾裡面找到 xyz123456.u 並移出 System 的資料夾就好，不必刪除
+如果真有必要，可以將 System 資料夾內的 .u 檔案全數移出，並檢查檔案完整性重新下載，確保只有最原本 KF1 的檔案後再進入伺服器
 
 發生此問題是因為你的資料夾裡有相同名稱的檔案，原因可能為：
 1. 先前有在 Steam 工作坊有訂閱過相關的檔案。
